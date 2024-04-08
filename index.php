@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Mariage</title>
+    <link rel="stylesheet" href="Acceuil.css">
+</head>
+
+
+<body>
+    <header>
+        <div>
+            <img  src="./images/logofinis.png" class="one"    alt="logo">
+    
+            <section class="text">
+                <p>
+                Votre Organisateur de mariage
+                </p>
+            <h4> Vous avez dit <span style="font-weight: bolder;">Oui</span>? AliEvent est fait pour vous.</h4>
+            </section>
+        </div>
+        <div class="class">
+            <div>
+                <img src="./images/coeurs .png" class="kid1" alt="">
+                <!-- <img src="./images/coeurs .png" class="kid2" alt=""> -->
+            </div>
+    
+            </div>
+    
+    <nav id="nav">
+                <ul>
+                    <li id="logo">
+                    <p>Ali<span>Event</span></p>
+                    </li>
+                    
+                    <li>
+                    <a href="Acceuil.html">Acceuil</a>
+                    </li>
+                    <li>
+                        <a href="Apropos.html">A propos</a> 
+                        </li>
+                    <li>
+                        <a href="boutique.html">Articles</a>
+                    </li>
+                                       
+                    <li>
+                        <a href="mailto:alialisuharto@gmail.com">
+                         Contact
+                        </a>
+                    </li>
+                    <li id="inscription">
+                        <a href="Inscription.html">Inscrivez-Vous</a> 
+                    </li>
+    
+                </ul>
+    
+    </nav>
+    
+    <div id="animation">
+                <div class="imtext">
+                    <img src="./images/SousLaPluie.jpg" alt="Souspluie">
+                </div>
+                <div class="imtext">
+                    <img src="./images/decoInt.jpg" alt="decoInt">
+                </div>
+                <div class="imtext">
+                    <img src="./images/maurice.jpg" alt="ileMaurice">
+                </div>
+                <div class="imtext">
+                    <img src="./images/decoplage.jpg" alt="Decoplage">
+                </div>
+        </div>
+    
+    </header>
+    <div>
+        <p>
+            <i>
+                
+Plongez dans l'univers magique du 
+<span >mariage</span>, où chaque détail 
+compte pour créer des souvenirs inoubliables. <span>Notre 
+équipe dévouée </span>est là pour transformer vos rêves en réalité, en vous <span>
+offrant une expérience exceptionnelle</span>, du début à la fin. Faites confiances à nos expertises pour 
+rendre votre jour spécial encore plus<span> mémorable </span>!        
+</i>
+</p>
+
+</div>
+
+   <main>
+
+    <section id="toto" onclick="toPage1()">
+        <div>
+            <h2> Mariage traditionnelle</h2>
+            <h3> Felicitation a Herman et Amandine</h3>
+           <img src="./imagebox2/marfrica.jpg" alt="Mariage traditonnelle">
+        </div>
+       
+
+    </section>
+    <section id="toto" onclick="toPage2()">
+        <div>
+            <h2> Mariage moderne</h2>
+            <h3> Felicitation a Juan et Emma</h3>
+                <img src="./imagebox2/imag2M.jpeg" alt="bague">
+        </div>
+    </section>
+
+    <section id="toto" onclick="toPage3()">
+        <div>
+          <h2> Nikah</h2>
+          <h3> Felicitation a Mousrine et Malaya</h3>
+            <img src="./imagebox3/amour.jpg" alt="amour">
+        </div>
+    </section>
+
+   </main> 
+   <div id="voir">
+    <a href="new.html">Voir plus</a>
+   </div>
+   <br>
+   <section class="kontakt">
+        <section class="adress">
+           <div class="oneBy">
+                <img src="./images/phone.png" alt="phone">
+                <p>032 49 532 39</p>
+           </div> 
+           
+           <div class="oneBy">
+                <img src="./images/mail.png" id="mail" alt="">
+                <p>alialisuharto@gmail.com</p>
+            </div> 
+           <div class="oneBy">
+                <img src="./images/facebook.png" alt="">
+                <p>Rueff Ali</p>
+            </div> 
+           <div class="oneBy">
+                <img src="./images/localisation.png" id="loc" alt="">
+                <p> 250 BKA Tsaramandroso </p>
+                <p id="ant">ANTSIRANANA 201</p>
+            </div> 
+
+        </section>
+        <section class="Blanc">
+            <a href="Inscription.html">
+            
+                S'inscrire
+
+            </a>
+        </section> 
+
+
+   </section>
+
+   <footer>
+    <p>
+        Tous droit reserves &copy; 2023- 2024.
+    </p>
+   </footer>
+<script src="Scipt.js"></script>
+</body>
+</html>

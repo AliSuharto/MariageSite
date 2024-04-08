@@ -1,0 +1,70 @@
+.mariee img{
+    display: flex;
+    float: left;
+    width: 30%;
+    height: 70vh;
+    padding-right: 2%;
+    object-fit: cover;
+}
+.mariee p{
+    font-size: 1.5rem;
+}
+.pic{
+display: inline-block;
+
+}
+
+.album{
+    grid-row: auto;
+    margin-top: 1%;
+}
+.album img{
+    width: 300px;
+    height: 200px;
+    padding: 3%;
+}
+.four{
+   object-fit: cover;
+   height: auto;
+}
+
+.retour a{
+text-decoration: none;
+background: rgb(4, 102, 208);
+color: white;
+font-size: 1.5rem;
+padding: 0.5rem;
+border-radius: 5px;
+}
+.retour a:hover{
+    box-shadow: 0px 1px 4px 1px rgba(136, 139, 140, 0.536);
+    transition: 0.2s;
+}
+.retour{
+text-align: center;
+margin-top: 1rem;
+}
+.foot{
+width: 100%;
+height: 40vh;
+background: grey;
+}
+.foot a{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    position: relative;
+    top: 40%;
+    left: 40%;
+}
+.footer{
+width: 100%;
+height:20vh;
+background: black;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+

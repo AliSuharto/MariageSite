@@ -1,0 +1,107 @@
+        /* faire la bande a gauche */
+        .nav{
+            display: flex;
+            float: left;
+            margin-left: 10px;
+            background:rgba(231, 221, 161, 0.362);
+            width: 200px;
+            height: 25rem;
+            border-radius: 3rem;
+        }
+        /* aligner de haut en bas les liens */
+        .option{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-evenly;
+            padding-left: 3%;
+
+        }
+        /*permettre de prendre une place propice pour l'image d'acceuil. */
+        .ak{
+            padding-bottom: 10px;
+        }
+        /*permet d'ajuster la place de l'image suggest*/
+        .pv{
+            padding-bottom: 10px;
+        }
+        /* faire une flex a tous les liens avec icones */
+        .option a{
+            text-decoration: none;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 2rem;
+            background: salmon;
+            width: 11rem;
+            border-radius: 3rem;
+
+
+        }
+        .option a:hover{
+            color: rgb(6, 34, 43);
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.249);
+        }
+        /* Ajuster la taille des icones */
+        .option a img{
+            height: 25px;
+            width: 25px;
+            padding-left: 10%;
+        }
+        /* ajuster la paragraphe */
+        .option a  p{
+            height: 100%;
+            width: auto;
+            font-size: 1.5rem;
+            
+        }
+        h1{ 
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.218);
+
+        }
+         h1 span{
+     
+            color: salmon;
+            font-size: 3rem;            
+        }
+        h2{
+            border: 2px solid rgb(65, 206, 241);
+            width: 300px;
+            padding-left: 1.2rem;
+            border-radius: 1rem;
+            text-align: center;
+
+        }
+        .accessoire{
+            display: flex;
+            margin-left: 15rem;
+        }
+        li{
+            list-style-type: none;
+        }
+        li a{
+            text-decoration: none;
+            font-size: 1.5rem;
+
+        }
+        .lieu{
+           margin-left: 40%;
+           margin-top: 5%;
+        }
+        .lieu a{
+            margin-left: 15%;
+        }
+        .bool{
+            margin-top: 5%;
+            height: 15vh;
+            width: 100%;
+            background: rgb(151, 151, 135);
+        }
+        .footer{
+            height: 15vh;
+            width: 100%;
+            background: black;
+        }
+

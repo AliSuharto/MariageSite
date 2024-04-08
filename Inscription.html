@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Inscription.css">
+</head>
+<header>
+<section>
+    <h1> <span>Inscrivez-vous</span></h1>
+</section>
+</header>
+<br>
+<body>
+   
+   <form action="inscription.php" method="post">
+    <section class="form">
+           <section class="ajust">
+                <label for="a propos de vous" >Nom:</label>
+                <input type="text" name="nameIns"placeholder="Ici votre nom" id="nameIns">
+            </section>
+                <br>
+           <section class="ajust">
+                <Label>Prenom:</Label>
+                <input type="text" name="surname" placeholder="Ici votre prenom" id="surname">
+            </section>
+                <br>
+           <section class="ajust"> 
+                <label>Tel:</label>
+                <input type="tel" name="number" placeholder="+261xxxxxxx" id="number">
+            </section>
+                <br>
+            <section class="ajust"> 
+                    <label for="">Mail:</label>
+                    <input type="email" name="mail" placeholder="Votremail.com" id="mail">
+            </section>
+            <br>
+            <section class="ajust"> 
+                <label > Date du mariage:</label>
+                <input type="date" name="datedemariage" id="datedemariage">
+            </section>
+            <br>
+            <section class="ajust"> 
+                <label>
+                    Theme:
+                </label>
+                <select name="theme" id="theme">
+                    <option value="Traditionnelle">Traditionnelle</option>
+                    <option value="Classique">Classique</option>
+                    <option value="Moderne">Moderne</option>
+                    <option value="Autres">Autres</option>
+                </select>
+            </section>
+        <br>
+            <section class="ajust">
+                <label for="">Votre message:</label>
+                <textarea name="message" id="message" cols="30" rows="10">
+
+                </textarea>
+            </section>
+            <br>   
+        
+            <input type="submit" id="submit" value="inscription">
+        
+ </section>
+ 
+</form> 
+</body>
+</html>

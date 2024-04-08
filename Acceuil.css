@@ -1,0 +1,313 @@
+
+body{
+    position: relative;
+}
+header> div p{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+    align-items: center;
+}
+header>div,.class{
+    display: flex;
+    justify-content:center ;
+}
+.text{
+    display:inline-block;
+}
+.text h4{
+    padding-left: 8rem;
+    margin-top: -1.7rem;
+    color: rgb(18, 152, 230);
+}
+.class{
+    position: relative;
+    width: 90%;
+    height: 20px;
+
+}
+.class div img{
+    opacity: 1;
+    stroke: aqua;
+}
+.kid2{
+    position: absolute;
+    left: 10%;
+    top: -500%;
+    width: 100px;
+    height: 100px;
+}
+.kid1{
+    position: absolute;
+    right: -3%;
+    top: -500%;
+    width: 100px;
+    height:100px;
+}
+ul{
+    list-style: none;
+    text-decoration: none; 
+}
+li{
+    padding:1%;
+    border: 10%;
+    font-size: 1.5rem; 
+}
+
+li>a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+li>p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    left: 1vh;
+    top: -20px;
+    font-size: 2rem;
+    text-decoration: 2px underline solid rgb(118, 113, 113);
+    font-weight: bold;
+}
+li>p{
+    color: rgba(124, 117, 122, 0.993);
+}
+span{
+    color: rgb(0, 0, 4);
+}
+
+a:hover{
+    color: rgb(25, 0, 255);
+    transition: 0.2s;
+}
+#nav{
+    position:sticky;
+    width: 100%;
+    z-index: 1000;
+    top: 0px;
+    box-shadow:5px 5px 7px rgba(0, 0, 0, 0.395);
+}
+
+#inscription> a:hover{
+    color: rgb(19, 67, 239);
+
+}
+
+
+#animation{
+    height: 50vh;
+    overflow: clip;
+    
+}
+.imtext{
+    display: none;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    overflow: clip;
+    animation: fadeIn 3s  forwards, zoomIn 3s forwards;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn{ 
+    from{
+        transform:scale(0.95)
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.imtext img{
+    width: 100%;
+    object-fit:cover;
+    height: 100%;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    border-radius: 0.2rem;
+}
+.active{
+    display: flex;
+}
+body>div>p{
+text-transform: none ;
+font-size: 2rem;
+color: rgb(42, 42, 43);
+width: 90%;
+height: auto;
+margin: 0 auto;
+text-align: center;
+
+}
+body>div>p>i>span{
+   color: rgb(255, 0, 111);
+}
+.one{
+    width: 200px;
+    height: 100%;
+
+}
+section > img{
+
+height: 100px;
+width: 50%px;
+
+}
+.two{
+    width: 50px;
+    height: 50px;
+
+}
+
+ul{
+    background: rgba(251, 247, 231, 0.969); 
+    display: flex;
+    justify-content: center;
+    white-space: 30px;
+    box-shadow: rgb(0, 0, 0);
+}
+#inscription{
+    background: rgba(30, 213, 237, 0.921);
+    border-radius: 5%;
+    position: absolute;
+    right: 0px; 
+
+}
+ #logo>img{
+    width:100%;
+    height:100%;
+     border-radius: 5%;
+     position:relative;
+     align-items: center;
+     margin-top: -1%;
+    }
+
+#toto{
+    height: 500px;
+    width: 30%;
+    display: inline-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    border: 2px solid black;
+    transition: transform 0.2s;
+    border-radius: 5%;
+    background-image: url(./images/etincellee.jpg);
+}
+#toto >div>img{
+    width: 80%;
+    height: 60%;
+    border-radius: 1rem;
+    margin-left: 10%;
+    box-shadow:0 0px 5px 0px rgba(192, 184, 184, 0.705);
+    object-fit: cover;
+
+}
+#toto>div>h2,h3{
+    text-align: center;
+    color:white;
+}
+
+#toto:hover{
+    transform: scale(1.06);
+    cursor: pointer;
+    background: rgb(252, 190, 190);
+}
+main{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 10px;
+    padding: 10px;
+
+}
+#voir{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#voir a {
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 3%;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    padding: 1%;
+    width: 100px;
+}
+#voir> a:hover{
+    transition: 0.2s;
+    box-shadow: 0 0 10px 0 rgb(18, 69, 78);
+}
+.kontakt{
+   background-image: url(./images/decoInt.jpg);
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    border-radius: 1rem;
+}
+.adress{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 1rem;
+    border-bottom: none;
+}
+.oneBy{
+    flex-direction: column;
+}
+.oneBy img{
+    height: 50px;
+    width: 50px;
+}
+.oneBy p{
+    color: rgb(0, 0, 0);
+}
+
+.oneBy #mail{
+     margin-left: 2.7rem;
+}
+.oneBy #ant{
+  margin-top: -1rem;
+  margin-left: 6px;
+}
+.oneBy #loc{
+    margin-left: 1.8rem;
+}
+.Blanc{
+    display: flex;
+    justify-content:center;
+}
+.Blanc a{
+    padding: 0.2%;
+    border-radius: 0.5rem; 
+    width: 130px;
+    margin-right: 15px;
+}
+ .Blanc a {
+    font-size:1.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: match-parent;
+    background: rgb(255, 0, 0);
+    text-align: center;
+
+}
+.Blanc a:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px 0 black;
+}
+
+footer p{
+margin-top: 2rem;
+text-align: center;
+}
