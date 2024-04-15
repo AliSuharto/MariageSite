@@ -10,6 +10,25 @@
             width: 20%;
             margin: 0% 38%;
         }
+        #flottante {
+            float: left;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-evenly;
+            padding-left: 1%;
+        }
+        #flottante a{
+            text-decoration: none;
+            font-size: 1rem;
+            background: rgba(254, 254, 254, 0.567);
+            margin-top: 5px;
+            border-radius: 5rem;
+            color: rgb(0, 2, 7);
+        }
+            #flottante a:hover{
+                background: rgba(255, 136, 0, 0.877);
+                transition: 0.2s;
+            }
          p{
             width: 80%;
             font-size: 1.5rem;
