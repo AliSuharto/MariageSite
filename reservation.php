@@ -4,17 +4,10 @@ $serveur = "localhost";
  $dbname = "sitemariage";
  $user = "root";
  $pass = "";
-    $nameIns=$_POST['nameIns'];
-    $surname=$_POST['surname'];
-    $number=$_POST['number'];
-    $mail=$_POST['mail'];
-    $datedemariage=$_POST['datedemariage'];
-    $theme=$_POST['theme'];
-    $message=$_POST['message'];
 
 try {
     // Connexion à la base de données avec PDO
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
+    $pdo = new PDO("mysql:host=$serveur;dbname=$dbname;charset=utf8", $user, $pass);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
    
     // Requête pour récupérer les données de la table "Profil"
@@ -30,15 +23,16 @@ try {
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
         echo "<tr>";
         echo "<td>" . htmlspecialchars($row['id']) . "</td>";
-        echo "<td>" . htmlspecialchars($row['nameIns']) . "</td>";
-        echo "<td>" . htmlspecialchars($row['surname']) . "</td>";
-        echo "<td>" . htmlspecialchars($row['number']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['Nom']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['Prenom']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['Numero']) . "</td>";
         echo "<td>" . htmlspecialchars($row['mail']) . "</td>";
-        echo "<td>" . htmlspecialchars($row['datedemariage']) . "</td>";
-        echo "<td>" . htmlspecialchars($row['theme']) . "</td>";
-        echo "<td>" . htmlspecialchars($row['message']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['Date']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['Theme']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['Msg']) . "</td>";
+    }
         echo "</table>";
-}
+
     // Fermer la connexion à la base de données
     $pdo = null;
 } catch (PDOException $e) {
