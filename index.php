@@ -10,6 +10,31 @@
 
 <body>
     <header>
+        <div id="profil">
+           <button id="mainButton">
+            <img src="./images/placeholderBuddy.png" alt="body">
+                <p>Visiteur</p>
+            </button>
+        </div>
+        <div id="PassAdministrator" style="display: none;">
+            <p>Passer au compte administrateur</p>
+            <button id='ChangeCompt'>Oui</button>
+        </div>
+
+        <div id="login" style="display: none;">
+            <form method="post" action="Admin.php">
+                <input type="text" name="Identifiant" placeholder="Identifiant" required>
+                <input type="password" name="password" placeholder="mot de passe" required>
+                <input type="submit" value="Connexion">
+                <button type="button" id="fermer"> Fermer</button>
+                
+            </form>
+            
+
+
+        </div>
+
+
         <div>
             <img  src="./images/logofinis.png" class="one"    alt="logo">
     
