@@ -2,12 +2,14 @@
               .entete{
             background-image: url(./images/bouquet.png);
             width:100%;
+            height: 35vh;
 
         }
          
          .entete img{
-            height: 20%;
-            width: 20%;
+            position: relative;
+            height: 95px;
+            width: 95px;
             margin: 0% 38%;
         }
         #flottante {
@@ -65,27 +67,6 @@
             text-decoration: none;
             color: black;
         }
-        /* .retour a{
-            text-decoration: none;
-            background: rgb(1, 94, 255);
-            border: 2px solid rgb(255, 255, 255);
-            color: white;
-            font-size: 1.5rem;
-            padding: 0.5rem;
-            border-radius: 5rem;
-            }
-            .retour a:hover{
-                color: black;
-                transition: 0.2s;
-                background: rgb(142, 219, 250);
-                border: 2px solid rgb(0, 55, 255);
-            }
-            .retour{
-            text-align: center;
-            margin-top: 1rem;
-            margin-bottom: 1%;
-            } */
-
         
                 .kontakt {
                     background-image: url(./images/decoInt.jpg);
@@ -133,21 +114,7 @@
                  width: 130px;
                  margin-right: 15px;
              }
-              /* .Blanc a {
-                 font-size:1.5rem;
-                 color: rgb(255, 255, 255);
-                 font-weight: bold;
-                 text-decoration: none;
-                 text-align: match-parent;
-                 background: rgb(255, 0, 0);
-                 text-align: center;
-             
-             }
-             .Blanc a:hover{
-                 cursor: pointer;
-                 transition: 0.3s;
-                 box-shadow: 0 0 10px 0 black;
-             } */
+              
              .Blanc{
                 display: flex;
                 justify-content:center;
