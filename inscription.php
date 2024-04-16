@@ -17,15 +17,16 @@
      $dbco->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
      $sth = $dbco->prepare("
 
-     INSERT INTO profil (Nom, Prenom, mail, Date, Msg, Theme) 
-     VALUES(:Nom, :Prenom, :mail, :Date, :Msg, :Theme)");
+     INSERT INTO profil (Nom, Prenom,Numero, mail, Date, Theme, Msg) 
+     VALUES(:Nom, :Prenom, :Numero, :mail, :Date, :Theme, :Msg)");
 
         $sth->bindParam(':Nom',$nameIns);
         $sth->bindParam(':Prenom',$surname);
+        $sth->bindParam(':Numero',$number);
         $sth->bindParam(':mail',$mail);
         $sth->bindParam(':Date',$datedemariage);
-        $sth->bindParam(':Msg',$message);
         $sth->bindParam(':Theme',$theme);
+        $sth->bindParam(':Msg',$message);   
         $sth->execute();  
 
         

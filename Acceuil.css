@@ -2,6 +2,38 @@
 body{
     position: relative;
 }
+#profil{
+    float: right;
+    margin-top: 1rem;
+    margin-right: 15px;
+}
+/* #profil button{
+    background: none;
+    border: none;
+} */
+#profil img{
+    width: 30px;
+    height: 30px;
+}
+ #profil p{
+    font-size: 0.5rem;
+    color: blue;
+    text-decoration: none;
+    margin-top: -1px;
+    margin-left: 1px;
+ }   
+ #login, #PassAdministrator{
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+ }
+ 
+
+
+
+
+
 header> div p{
     font-size: 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

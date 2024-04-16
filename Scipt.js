@@ -1,3 +1,25 @@
+document.getElementById('mainButton').addEventListener('mouseover', function(){
+document.getElementById('PassAdministrator').style.display='block';
+}
+);
+
+    document.getElementById('PassAdministrator').addEventListener('mouseleave', function(){
+        document.getElementById('PassAdministrator').style.display='none';
+        }
+        );
+
+document.getElementById('ChangeCompt').addEventListener('click', function(){
+    document.getElementById('PassAdministrator').style.display='none';
+
+    document.getElementById('login').style.display='block';
+    }
+    );
+    document.getElementById('fermer').addEventListener('click', function(){
+        document.getElementById('login').style.display='none';
+    }
+)
+    
+
 
 const container= document.getElementById('animation');
 const images=document.querySelectorAll('.imtext');
@@ -19,3 +41,13 @@ images[currentImageIndex].classList.add('active');
     function toPage3(){
         window.location.href="box3.html";
     }
+
+
+
+
+
+
+
+
+
+
